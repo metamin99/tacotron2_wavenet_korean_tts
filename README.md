@@ -71,4 +71,7 @@ parser.add_argument('--logdir', type=str, default=LOGDIR)
 - Griffin-Lim으로 생성된 것과 Wavenet Vocoder로 생성된 sample이 있다.
 - Wavenet으로 생성된 음성은 train 부족으로 잡음이 섞여있다.
 
-
+### License
+본 저작물은 [Heecheol Cho](https://github.com/hccho2/Tacotron2-Wavenet-Korean-TTS) 님의 것으로, 윈도우10 환경에서의 수행 테스트를 위해 다음 내용을 편집한 것 이외의 별도 재가공이나 개인 영리를 위한 활용이 없음을 밝힙니다.
+- hparams.py 및 train_tacotron2.py 파일 일부 내용 편집
+- datasets 디렉토리에 LJ Speech 테스트를 위한 LJSpeech_1_0 디렉토리 설정
